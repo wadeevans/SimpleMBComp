@@ -61,11 +61,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="23" x="0.47875" y="0.3807692307692307" uiLastX_Normal="133"
-          uiLastY_Normal="308" uiopen_Normal="1">
+  <FILTER uid="23" x="0.47875" y="0.3807692307692307" uiLastX_Normal="825"
+          uiLastY_Normal="357" uiopen_Normal="1">
     <PLUGIN name="AudioFilePlayer" format="VST3" category="Fx" manufacturer="Matkat Music LLC"
             version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/AudioFilePlayer.vst3"
-            uniqueId="79fe81c" isInstrument="0" fileTime="17d7729eb9c" infoUpdateTime="17d776a3353"
+            uniqueId="79fe81c" isInstrument="0" fileTime="17d7729eb9c" infoUpdateTime="17e0c6ddcb1"
             numInputs="2" numOutputs="2" isShell="0" uid="acfeaab3"/>
     <STATE>379.VMjLgHW....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HCLv3BTIISX1UEaho2ZVkUdAAkKAwDUigWRWkEcQ0VTucmUY4BQtHVQ2HUU4UEahkGN3gkaIckV4M1UXoVUVszZYcEVz0jLK0TUxH1aMEyRuEUUiQWUwHVcpYTUvPiUYkWPRM0ZQYkVmgiTSASSWoUZ3HETxUDaXcFLVgkYLk2RHslQikWPRgEcQYDREc1UZoWP3UUcU0VXp0jLKYmZCgTPqwVX5EDdQU2ZrEVatHzX0EDdQUWQrszbQMEVt3hKt3hKt3hKt3hKt3FUUMTUDQEdqw1XmE0UYQTQFM1YAAkKAgDUjYWQwHVdAAkKAwjKtLlKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYDOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
     <LAYOUT>
@@ -77,12 +77,27 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="24" x="0.525" y="0.6" uiLastX_Normal="924" uiLastY_Normal="155"
-          uiopen_Normal="1">
+  <FILTER uid="24" x="0.33375" y="0.6115384615384616" uiLastX_Normal="924"
+          uiLastY_Normal="155" uiopen_Normal="1">
     <PLUGIN name="SimpleMBComp" format="VST3" category="Fx" manufacturer="Matkat Music"
             version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/SimpleMBComp.vst3"
-            uniqueId="5ada3e9" isInstrument="0" fileTime="17d77656d64" infoUpdateTime="17d776a3353"
+            uniqueId="5ada3e9" isInstrument="0" fileTime="17d77656d64" infoUpdateTime="17e0c6ddcb2"
             numInputs="2" numOutputs="2" isShell="0" uid="acfdee14"/>
+    <STATE>423.VMjLg3Y....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HyLy3BTEwlXmAiUYoWUrIVdA4hKAAkKTETRUAUSAAkKBolQY4BQtHTQDQzX5UTLXEWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3BTR4RPtPUPIUETMEDTtHjZFkkKDYWPEgTUXo2ZwDlKXcEVxU0UY4BQPIDQt3hKt3hKt3BRBAkKtTETRUDUS4BQl4xaQYjKAoFTAIUUFE1ZEEiXqEjYic1cVM1ZAAkKIAkKt3hKt3hKtnWXtDjKTETRUAUSAAkKBolQY4BQ1ITQPUjV3UULh4FNFElZAY1XmcmUisVPP4RRP4hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVPP4RPHQEY1UTLhkWPP4RPL4hKi4hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQFwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="25" x="0.915" y="0.9115384615384615">
+    <PLUGIN name="WevDiffuserReverb" format="VST3" category="Fx" manufacturer="Wev"
+            version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/WevDiffuserReverb.vst3"
+            uniqueId="eeaca4e6" isInstrument="0" fileTime="17dbf60ced5" infoUpdateTime="17e0c6ddcb2"
+            numInputs="2" numOutputs="2" isShell="0" uid="acf375e6"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
       <INPUTS>
@@ -93,8 +108,60 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
+  <FILTER uid="26" x="0.4825" y="0.6192307692307693" uiLastX_Normal="822"
+          uiLastY_Normal="271" uiopen_Normal="1">
+    <PLUGIN name="AudioOrdeal" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/AudioOrdeal.vst3"
+            uniqueId="265d42e" isInstrument="0" fileTime="17dc8fd900f" infoUpdateTime="17e0c6ddcb2"
+            numInputs="2" numOutputs="2" isShell="0" uid="acfb88c4"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="27" x="0.63125" y="0.6153846153846154">
+    <PLUGIN name="AudioOrdealLimiter" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/AudioOrdealLimiter.vst3"
+            uniqueId="eea3e8e9" isInstrument="0" fileTime="17dc94fbcf6" infoUpdateTime="17e0c6ddcb2"
+            numInputs="2" numOutputs="2" isShell="0" uid="acf35c5c"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="29" x="0.8075" y="0.6173076923076923" uiLastX_Normal="732"
+          uiLastY_Normal="212" uiopen_Normal="1">
+    <PLUGIN name="DistortionVST" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="/Users/chriswade-evans/Library/Audio/Plug-Ins/VST3/DistortionVST.vst3"
+            uniqueId="fba1a227" isInstrument="0" fileTime="17de8ad2f4d" infoUpdateTime="17e0c6ddcb3"
+            numInputs="2" numOutputs="2" isShell="0" uid="acf93552"/>
+    <STATE>412.VMjLgLY....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9HiL03BTEwlXmAiUYoWUrIVdA4hKAAkKTETRUAUSAAkKBolQY4BQ1ETQHYTXqQiQY4BVWgkbUcUVtPDTBQjKt3hKtXGLoIDNO4hKUAkTEQ0TtPjYt7VTF4RPhAUPpkzUZESUF4RLEYTXvTkQtDjZtDjKt3hKt3hKtX1JC4BTEoFUAACQtDDRPokZAAkKFQkcYc1ZrElKXcEVxU0UY4BQPIDQt3hKt3BQzQFU37jKtTETRUDUS4BQl4xaQYjKAIFTAgWQrEVaUYjKwTjQgASUF4RPp4RPt3hKt3xSJIVSqLjKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
   <CONNECTION srcFilter="23" srcChannel="0" dstFilter="24" dstChannel="0"/>
-  <CONNECTION srcFilter="23" srcChannel="1" dstFilter="24" dstChannel="1"/>
-  <CONNECTION srcFilter="24" srcChannel="0" dstFilter="21" dstChannel="0"/>
-  <CONNECTION srcFilter="24" srcChannel="1" dstFilter="21" dstChannel="1"/>
+  <CONNECTION srcFilter="23" srcChannel="0" dstFilter="26" dstChannel="0"/>
+  <CONNECTION srcFilter="23" srcChannel="1" dstFilter="26" dstChannel="1"/>
+  <CONNECTION srcFilter="23" srcChannel="0" dstFilter="27" dstChannel="0"/>
+  <CONNECTION srcFilter="23" srcChannel="1" dstFilter="27" dstChannel="1"/>
+  <CONNECTION srcFilter="23" srcChannel="0" dstFilter="29" dstChannel="0"/>
+  <CONNECTION srcFilter="23" srcChannel="1" dstFilter="29" dstChannel="1"/>
+  <CONNECTION srcFilter="29" srcChannel="0" dstFilter="21" dstChannel="0"/>
+  <CONNECTION srcFilter="29" srcChannel="1" dstFilter="21" dstChannel="1"/>
 </FILTERGRAPH>
