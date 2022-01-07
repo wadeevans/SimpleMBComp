@@ -95,6 +95,18 @@ void SimpleMBCompAudioProcessor::prepareToPlay (double sampleRate, int samplesPe
 {
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
+    
+    juce::dsp::ProcessSpec spec;
+    
+    spec.maximumBlockSize = samplesPerBlock;
+    
+    spec.numChannels = getTotalNumOutputChannels();
+    
+    spec.sampleRate = sampleRate;
+    
+    compressor.prepare(spec);
+    
+    
 }
 
 void SimpleMBCompAudioProcessor::releaseResources()
